@@ -1,5 +1,5 @@
 # Bias Test GPT
-This is the repository that contains source code for BiasTestGPT framework.
+This is the repository that contains source code for BiasTestGPT framework. We will share the code once the paper is accepted.
 
 
 # Website License
