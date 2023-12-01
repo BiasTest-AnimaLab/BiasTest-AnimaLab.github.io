@@ -219,17 +219,18 @@
     <!-- Bias Heatmap-->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Bias Test Results</h2>
+        <h2 class="title is-3">Bias Testing Results</h2>
         <div class="content has-text-justified">
           <p>
-            Mean of bias test scores (\% of stereotyped choices) for 15 biases using test sentences generated with BiasTestGPT framework compared to Manual templates. 
-            In both cases, the means are estimated via 30x bootstrapping. 
-            We evaluate bias on 10 tested PLMs. 
-            We can see several patterns with gender biases 1,2,3, and 4 present in both setups. 
-            Fixed templates don't capture these biases as well. 
-            Intersectional biases 6 to 8 are much more pronounced in generated test sentences than in manual templates. 
-            The 4 bolded bias names at the bottom are proposed novel bias types. 
-            The bias estimates using ChatGPT that are statistically significantly different at alpha=0.01 compared to Manual templates are bolded and indicated with * 
+            % of stereotyped choices (Stereotype=Score) for 15 biases using test sentences generated with <b>BiasTestGPT</b> framework compared to <b>Manual Templates</b>. 
+            We evaluate bias on 10 tested PLMs.  Means are estimated via 30x bootstrapping. Statistically significant differences (&Alpha; &lt; 0.01) compared to Manual Templates are bolded and indicated with *
+
+            We can see several patterns:
+            <ul>
+              <li>Gender biases 1,2,3, and 4 present in both setups, but templates don't capture these biases as well. </li>
+              <li>Intersectional biases 6 to 8 are much more pronounced in generated test sentences than in templates. </li>
+              <li>The 4 bolded bias names at the bottom are proposed novel bias types.</li>
+            </ul>
           </p>
         </div>
         <div class="column is-12 has-text-centered">
